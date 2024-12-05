@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+  
+
+<style>
+   
+  body {
+    font-family: Arial, sans-serif;
+      background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center center; /* Adjust background position */
+    height:auto;
+    margin: 10px;
+      margin: 0;
+      padding: 0;
+      color: black;
+
+    background: radial-gradient(circle, purple, rgb(109, 43, 43), yellow);
+
+  }
+ 
+  .container {
+      width: 400px;
+      margin: 100px auto;
+      background-color: rgb(169, 0, 104);
+      padding: 20px;
+      padding-left: 50px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      align-items: center;
+      justify-content: center;
+  }
+  
+  h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="file"],
+  input[type="number"],
+  select {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      background-color: rgb(230, 221, 236);
+      border-radius: 12px;
+  }
+  
+  button {
+      background-color: #000000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    margin: 20px;
+    margin-left: 100px;
+
+  }
+  
+  button:hover {
+      background-color: #3f444a;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
+}
+
+
+</style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">MySite</div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="registration">Register</a></li>
+            <li><a href="login">Login</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+<!-- form  -->
+
+<div class="container" >
+  <h2>Register</h2>
+  <form method="post" enctype="multipart/form-data">
+    
+    <label for="name">First Name:</label>
+      <input  type="text" id="name" name="name" required>
+      
+      <label for="lastname">Last Name:</label>
+      <input  type="text" id="name" name="lastname" required>
+      
+      <label for="email">Email:</label>
+      <input  type="email" id="email" name="email" required>
+      
+      <label for="email">Username:</label>
+      <input  type="text" id="email" name="username" required>
+
+      
+
+      <label for="email">Phone:</label>
+      <input  type="number"  name="phone" required>
+      
+      <label for="email">Address</label>
+      <input  type="text"  name="Address" required>
+      
+
+
+      
+      <label for="password">Password:</label>
+      <input  type="password" id="password" name="password" required>
+      
+   
+       
+
+
+      <!-- <p>have account <a href="C:/Users/Mangesh/OneDrive/Desktop/intern/login_form.html"><br>Login </a></p> -->
+      <p>Have an account? <a href="login_form.html">Login</a></p>
+      <br>
+      <button type="submit">Create Account</button>
+  </form>
+  
+</div> 
+
+
+
+</body>
+</html>
+
+
+
+
