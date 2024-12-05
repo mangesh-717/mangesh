@@ -1,0 +1,72 @@
+body{
+    overflow: hidden;
+}
+
+ h1 {
+    position: relative;
+    left: 15px;
+    top: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    text-align: center; /* Center the heading */
+    margin-top: 20px;
+  }
+
+  form {
+    margin: 20px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  /* Media Query for devices with a max-width of 768px (tablets and mobile devices) */
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 10px;
+    }
+
+    .navbar-brand {
+      font-size: 18px;
+    }
+
+    h1 {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .form-control {
+      font-size: 14px; /* Adjust input font size */
+    }
+
+    .btn {
+      width: 100%; /* Full width for the submit button on small screens */
+      padding: 12px;
+    }
+  }
+
+  /* Media Query for devices with a min-width of 769px (desktops and larger devices) */
+  @media (min-width: 769px) {
+    h1 {
+      font-size: 2.5rem; /* Larger font size for desktops */
+    }
+
+    .form-control {
+      font-size: 16px; /* Larger input font size for desktops */
+    }
+
+    .btn {
+      padding: 15px 30px; /* Larger button size */
+    }
+
+    .nav-link {
+      font-size: 16px; /* Larger nav item text on desktop */
+    }
+  }
